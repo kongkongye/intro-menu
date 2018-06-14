@@ -1,25 +1,20 @@
 <menu xmlns="http://xsd.kongkongye.com/MenuMod-1.0.0.xsd" server="false" title="介绍菜单">
     <lines>
-        <line align="center">+--- $l介绍$r ---+</line>
-        <line>你可以在$l单人$r使用此菜单MOD,也可以在$l服务器$r里使用.</line>
-        <line/>
-        <line>此菜单MOD旨在减少指令的使用,简化操作.</line>
-        <line/>
-        <line>$l玩家$r可以使用此菜单MOD简化操作,$l服主$r可以使用此菜单MOD制作服务器专用菜单,$lMOD/插件开发者$r也可以将此菜单MOD当作其功能界面</line>
+        <line>+--- $l介绍$r ---+</line>
+        <line align="left">你可以在$l单人$r使用此菜单MOD,也可以在$l服务器$r里使用.</line>
+        <line separate="true" align="left">此菜单MOD旨在减少指令的使用,简化操作.</line>
+        <line separate="true" align="left">$l玩家$r可以使用此菜单MOD简化操作,$l服主$r可以使用此菜单MOD制作服务器专用菜单,$lMOD/插件开发者$r也可以将此菜单MOD当作其功能界面</line>
 
-        <line/>
-        <line align="center">+--- $l操作说明$r ---+</line>
-        <line align="center">$lz键$r打开菜单主页</line>
-        <line align="center">$lx键$r打开服务器主页</line>
-        <line align="center" hover="$7按esc关闭的菜单界面">$lc键$r显示界面</line>
+        <line separate="true">+--- $l操作说明$r ---+</line>
+        <line>$lz键$r打开菜单主页</line>
+        <line>$lx键$r打开服务器主页</line>
+        <line hover="$7按esc关闭的菜单界面">$lc键$r显示界面</line>
 
-        <line/>
-        <line align="center">+--- $l菜单类型$r ---+</line>
-        <line>一个是$l本地菜单$r,包括本地MOD注册的菜单与下载的第三方菜单</line>
-        <line>另一个是$l服务器菜单$r,在进入装有菜单插件的服务器后,由服务器提供</line>
+        <line separate="true">+--- $l菜单类型$r ---+</line>
+        <line align="left">一个是$l本地菜单$r,包括本地MOD注册的菜单与下载的第三方菜单</line>
+        <line align="left">另一个是$l服务器菜单$r,在进入装有菜单插件的服务器后,由服务器提供</line>
 
-        <line/>
-        <line align="center">+--- $l更多$r ---+</line>
-        <line align="center"><button cmdSide="local" value="/menu join {local:repo}:{local:namespace}:func">✪功能介绍✪</button></line>
+        <line separate="true">+--- $l更多$r ---+</line>
+        <line><button cmdSide="local" value="/menu join {local:repo}:{local:namespace}:func">✪功能介绍✪</button></line>
     </lines>
 </menu>
